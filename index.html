@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Las Vegas Seasons</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Fabulous Las Vegas!</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="Winter.html">Winter</a>
+        </li>
+        <li>
+          <a href="Spring.html">Spring</a>
+        </li>
+        <li>
+          <a href="Summer.html">Summer</a>
+        </li>
+        <li>
+          <a href="Autumn.html">Autumn</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="season-info">
+      <h3>Seasons in the desert?</h3>
+      <p>
+        Many people find it hard to believe that Las Vegas experiences all four
+        seasons, but we do! Check out each page above for photos from Southern
+        Nevada's season as well as seasonal weather information.
+      </p>
+    </section>
+
+    <hr />
+
+    <figure>
+      <img
+        src="https://a.cdn-hotels.com/gdcs/production120/d1096/b0d9ad8d-314d-41a4-8e8b-315af527c04a.jpg"
+        alt="The iconic Welcome to Las Vegas sign"
+      />
+      <img
+        id="portrait"
+        src="https://pbs.twimg.com/media/BcBujOPCQAAgF5-.jpg"
+        alt="The Welcome to Las Vegas sign covered in snow."
+      />
+    </figure>
+
+    <figcaption>It <i>really</i> does snow in the desert!</figcaption>
+
+    <hr />
+
+    <section class="form-div">
+      <h4>What is YOUR favorite season?</h4>
+      <form>
+        <div id="form-box1">
+          <p>
+            Have you visited Las Vegas in all 4 seasons? Tell us which was your
+            favorite, or when you would most like to visit!
+          </p>
+        </div>
+        <div id="form-box2">
+          <input type="text" name="name" placeholder="Name" /><br />
+          <input type="radio" id="winter" name="season" value="Winter" />
+          <label for="winter">Winter</label> <br />
+          <input type="radio" id="spring" name="season" value="Spring" />
+          <label for="spring">Spring</label> <br />
+          <input type="radio" id="summer" name="season" value="Summer" />
+          <label for="summer">Summer</label> <br />
+          <input type="radio" id="autumn" name="season" value="Autumn" />
+          <label for="autumn">Autumn</label><br />
+          <input
+            type="text"
+            name="reason"
+            placeholder="Why is that your favorite?"
+          />
+          <input class="season-button" type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+
+    <hr />
+
+    <footer>
+      <a
+        href="https://weatherspark.com/y/2228/Average-Weather-in-Las-Vegas-Nevada-United-States-Year-Round"
+        >I want more info about Las Vegas weather!</a
+      >
+    </footer>
+  </body>
+</html>
